@@ -1,0 +1,52 @@
+{
+	margin: 10px;
+	padding: 20px;
+}
+h1 {
+	text-align: center;
+   	color: #0776A0;
+	width:100%;
+}
+body {
+    background-color: #ff0000;
+	padding:10px
+}
+main{ 
+     background-color: #224344;
+	 padding:10px;
+	width: 70%;	
+	margin: auto;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:center;
+}
+.photo{		
+	width: 30%;	
+	height: 200px;
+	margin: 10px;
+	padding:10px; 
+	background-color:#224344;
+	background-position: center;
+	background-size:cover;
+	transition:all 0.5s;
+}
+.photo:hover{
+	transform:rotate(10deg)scale(0.7);
+.photo1{		
+	background-image: url(image/mark2.jpg);
+}
+.photo2{		
+	background-image: url(image/bmw.jpg);
+}
+.photo3{		
+	background-image: url(honda civic .jpg);
+}
+.photo4{		
+	background-image: url(image/nissanskilain.jpg);
+}
+.photo5{		
+	background-image: url(image/subary.jpg);
+}
+.photo6{		
+	background-image: url(image/supra.jpg);
+}
